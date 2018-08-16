@@ -1,0 +1,18 @@
+name: IdissyHealthBars
+author: dahpr0gam3r
+main: me.dahpr0gam3r.IdissyHealthBars.Main
+version: 1.0.0
+softdepend:
+
+commands:
+   IdissyHealthBar:
+      description: Main command for IdissyHealthBar, use /ihb help for commands.
+      usage: /<command>
+      aliases: [ihb,hbar]
+permissions:
+  idissyhealthbar.reload:
+    default: op
+  idissyhealthbar.help:
+    default: op
+  idissyhealthbar.see.onplayer:
+    default: op
