@@ -1,10 +1,10 @@
 package me.dahpr0gam3r.IdissyHealthBars;
 
+import me.dahpr0gam3r.IdissyCore.IdissyCore;
 import me.dahpr0gam3r.IdissyHealthBars.utils.Debug;
 import me.dahpr0gam3r.IdissyHealthBars.utils.PlayerBarUtils;
 import me.dahpr0gam3r.IdissyHealthBars.utils.Utils;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -73,7 +73,7 @@ public class Main extends JavaPlugin {
 		//setup for command executor
 		getCommand("IdissyHealthBar").setExecutor(new Commands(this));
 
-			
+		IdissyCore.sendStart(this);
 //end of onEnable
 	}	
 

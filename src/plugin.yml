@@ -2,7 +2,7 @@ name: IdissyHealthBars
 author: dahpr0gam3r
 main: me.dahpr0gam3r.IdissyHealthBars.Main
 version: 1.0.0
-softdepend:
+depend: [IdissyCore]
 
 commands:
    IdissyHealthBar:
