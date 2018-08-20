@@ -8,7 +8,7 @@ commands:
    IdissyHealthBar:
       description: Main command for IdissyHealthBar, use /ihb help for commands.
       usage: /<command>
-      aliases: [ihb,hbar]
+      aliases: [ihb,ihbar]
 permissions:
   idissyhealthbar.reload:
     default: op
